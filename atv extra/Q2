@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro matriz[5][5],f=0
+		para(inteiro i=0; i < 5; i++){
+			para(inteiro x=0; x < 5; x++){
+			matriz[i][x]= f++
+			}
+		}
+		para(inteiro i=4; i >= 0; i--){
+			para(inteiro x=4; x >= 0; x--){
+				escreva("["+matriz[i][x]+"]")
+				
+			}escreva ("\n")
+		}
+	}
+}
