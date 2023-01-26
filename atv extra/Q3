@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro A[100],B=0
+		para(inteiro i=0; i < 100; i++){
+			A[i]=B++
+		}
+		para(inteiro i=0; i < 100; i++){
+			escreva("["+A[i]+"]\n")
+		}
+	}
+}
