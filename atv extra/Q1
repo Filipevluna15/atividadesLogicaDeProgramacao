@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro matriz[4][4]
+		inteiro i2,F2,numero
+		para(inteiro i=0; i < 4; i++){
+			para(inteiro j=0; j < 4; j++){
+			escreva ("informe um número para a linha ", i," e outro para a coluna ",j,":")
+			leia (matriz[i][j])
+			}
+		}
+		escreva ("informe um valor da coluna.:")
+		leia (i2)
+		escreva ("informe um valor da linha.:")
+		leia (F2)
+		numero = matriz[i2][F2]
+		se (numero % 2 == 0){
+			escreva ("O triplo é .:"+matriz[i2][F2]*3)
+			}senao{
+			escreva (matriz[i2][F2]+"é um número impar")}
+	}
+}
