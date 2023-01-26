@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real vetor[5], media, so=0.0
+
+		para(inteiro i=0; i<5; i++){
+			escreva("Informe a altura: ")
+			leia(vetor[i])
+			so=so+vetor[i]
+	}
+	media=so/5
+	para(inteiro i=0; i<5; i++){
+		se(vetor[i]>media){
+			escreva("Maiores que a média: ",vetor[i])
+			escreva("\n")
+		}
+	}
+	}
+}
